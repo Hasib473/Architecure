@@ -78,6 +78,21 @@
     width: 100%;
 }
 
+.main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.teams{
+    display:flex;
+    align-items: center;
+    gap:20px;
+    margin-top: 50px;
+}
+.team-image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+}
 /* media quesry for mobile device */
 @media screen and (max-width:576px){
     .navbar, .nav-links{
